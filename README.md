@@ -74,6 +74,15 @@ Output: A ranked list of players by SR (edit usernames in bot.py).
 Leaderboard Players: Edit the usernames list in the $leaderboard command within bot.py to include your desired players:
 usernames = ["player1", "player2", "player3"]
 
+## OCR & Top Heroes:
+Attach a screenshot and run:
+
+$gg <screenshot>
+Output:
+
+The bot lists detected names on separate lines, then displays an embed with each player's top 3 heroes (with win percentage, wins, and losses).
+Footer message: Data powered by - KOG!!!!!!!!!
+
 ## Error Handling: The bot includes basic error messages; feel free to expand these for more user-friendly responses.
 
 ## Screenshots
